@@ -5,9 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "http-server sample-site -p 8303",
-    "test": "npm test",
-    "ghPages": "gh-pages -d sample-site",
-    "selser": "selenium-standalone"
+    "test": "wdio",
+    "ghPages": "gh-pages -d sample-site"
   },
   "repository": {
     "type": "git",
@@ -25,6 +24,8 @@
   },
   "devDependencies": {
     "selenium-standalone": "^5.11.2",
+    "wdio-mocha-framework": "^0.5.8",
+    "wdio-selenium-standalone-service": "0.0.8",
     "webdriverio": "^4.6.2"
   }
 }
