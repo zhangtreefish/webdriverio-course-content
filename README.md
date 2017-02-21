@@ -23,3 +23,14 @@ Run the test server:
 ```sh
 npm start
 ```
+
+Run the test:
+```sh
+npm test
+```
+
+Run the test with a different url:
+```sh
+set SERVER=prod&&npm test
+npm test -- --baseUrl=http://www.somesite/
+```
